@@ -11,10 +11,11 @@ h4{
     padding-bottom: 5px;
 }
 .bttn{
-padding-top: 5px;
-background-color: rgb(124, 51, 51);
-border-radius: 15px;
-text-align: center;
+padding-top: 3px;
+background-color: rgb(22, 127, 92);
+border-radius: 3px;
+color: azure;
+
 }
 #transaction-area{
     display: none;

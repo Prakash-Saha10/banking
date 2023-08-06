@@ -106,17 +106,13 @@ const depositNumber = parseFloat(depositAmount);
 document.getElementById("depositAmount").value="";
 })
 
-
 //withdraw
 const withdrawBtn =document.getElementById("addWithdraw");
 withdrawBtn.addEventListener("click",function(){
 const withdrawNumber = getInputNumber("withDrawAmount");
 
-
-
 updateText("currentWithdraw",withdrawNumber);
 updateText("currentBalance",-1*withdrawNumber);
-
 
 document.getElementById("withdrawAmount").value=""
 
@@ -127,9 +123,6 @@ const amount =document.getElementById(id).value;
 const amountNumber= parseFloat(amount); 
 return amountNumber;
 }
-
-
-
 
  
 function updateText(id, depositNumber){
